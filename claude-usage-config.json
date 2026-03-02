@@ -1,0 +1,29 @@
+{
+  "plan": "max_5x",
+  "limits": {
+    "5h_rolling_cost_usd": 33.00,
+    "7d_rolling_cost_usd": 300.00,
+    "monthly_cost_usd": 500.00
+  },
+  "refresh_interval_seconds": 60,
+  "pricing": {
+    "claude-opus-4-6": {
+      "input_per_mtok": 5.00,
+      "output_per_mtok": 25.00,
+      "cache_read_per_mtok": 0.50,
+      "cache_write_1h_per_mtok": 6.25
+    },
+    "claude-sonnet-4-6": {
+      "input_per_mtok": 3.00,
+      "output_per_mtok": 15.00,
+      "cache_read_per_mtok": 0.30,
+      "cache_write_1h_per_mtok": 3.75
+    },
+    "claude-haiku-4-5-20251001": {
+      "input_per_mtok": 0.80,
+      "output_per_mtok": 4.00,
+      "cache_read_per_mtok": 0.08,
+      "cache_write_1h_per_mtok": 1.00
+    }
+  }
+}
